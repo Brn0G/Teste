@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Album example · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+    
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <div class="row">
+
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="py-5 bg-light">
+    <div class="container">
+      <h1>Mine Horta Vale Verde</h1>
+    </div>
+    <form action="salva.php" method="post" class="row g-3">
+   
+      <div class="col-3">
+      <label for="inputDate4" class="form-label"></label>
+      Data: <input type="date" name="data" class="form-control" id="inputDate4">
+    </div>
+      
+    <div class="col-2">
+      <label for="inpuNumber4" class="form-label"></label>
+      Nº: <input type="number" name="n" class="form-control" id="inputNumber4"><br>
+    </div>
+  </form>
+
+  <form action="salva.php" method="post" class="row g-3">
+    <div class="col-7">
+      <label for="inputFirma4" class="form-label"></label>
+      Firma: <input type="text" name="firma" class="form-control" id="inputFirma4">
+    </div>
+
+    <div class="col-7">
+      <label for="inputEndereco4" class="form-label"></label>
+      Endereço: <input type="text" name="ender" class="form-control" id="inputEndereco4">
+    </div>
+
+    <div class="col-4">
+      <label for="inputCompl4" class="form-label"></label>
+      Complemento: <input type="text" name="compl" class="form-control" id="inputCompl4">
+    </div>
+
+    <div class="col-6">
+      <label for="inputBairro4" class="form-label"></label>
+      Bairro: <input type="text" name="bairro" class="form-control" id="inputBairro4">
+    </div>
+
+    <div class="col-5">
+      <label for="inputDate4" class="form-label"></label>
+      Estado:<select name="estado" class="form-control" id="inputDate4">
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select>
+    </div>
+    
+    <div class="col-5">
+      <label for="inputCidade4" class="form-label">Cidade</label>
+      <input type="text" name="cidade" class="form-control" id="inputCidade4">
+    </div>
+
+    <div class="col-2">
+      <label for="inputCEP4" class="form-label">CEP</label>
+      <input type="text" name="cep" class="form-control" id="inputCEP4" placeholder="00000-000">
+    </div>
+
+    <div class="col-2">
+      <label for="inputCNPJ4" class="form-label">CNPJ</label>
+      <input type="text" name="cnpj" class="form-control" id="inputCNPJ4" placeholder="00.000.000/0000-00">
+    </div>
+
+    <div class="col-5">
+      <label for="inputInscri4" class="form-label">Inscrição</label>
+      <input type="text" name="inscr" class="form-control" id="inputInscri4">
+    </div>
+
+    <div class="col-2">
+      <label for="inputTel4" class="form-label">Telefone</label>
+      <input type="text" name="tels" class="form-control" id="inputTel4" placeholder="(00)00000-0000">
+    </div>
+
+    <div class="col-3">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" name="email" class="form-control" id="inputEmail4">
+    </div>
+
+    <div class="col-11">
+      <label for="inputOBS4" class="form-label">OBS</label>
+      <input type="text" name="obs" class="form-control" id="inputOBS4">
+    </div>
+    
+    <div class="col=3"
+    <input> 
+    <input type="submit"  value="Salvar">
+    <input type="reset"></input>
+  </div>
+  </form>
+  </div>
+</main>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
